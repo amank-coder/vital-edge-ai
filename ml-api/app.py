@@ -9,9 +9,9 @@ CORS(app)
 # Load the trained models
 model = joblib.load("mh_binary_lgbm_model.pkl")
 scaler = joblib.load("scaler.pkl")
-exercises_model = joblib.load("exercises_model.pkl")
-equipment_model = joblib.load("equipment_model.pkl")
-diet_model = joblib.load("diet_model.pkl")
+exercises_model = joblib.load("Exercises_model.pkl")
+equipment_model = joblib.load("Equipment_model.pkl")
+diet_model = joblib.load("Diet_model.pkl")
 
 feature_order = [
     'Age', 'Sleep Hours', 'Work Hours per Week', 'Screen Time per Day (Hours)',
@@ -182,7 +182,7 @@ def predict_equipment():
             4: "Ellipticals, Indoor Rowers, Treadmills, Rowing Machines",
             5: "Kettlebell, Dumbbells, Yoga Mat",
             6: "Kettlebell, Dumbbells, Yoga Mat, Treadmill",
-            7: "Equipment Required",  # Possibly a placeholder
+            7: "Equipment Required",  
             8: "Ellipticals, Indoor Rowers, Treadmills, and Rowing Machines"
         }
 
