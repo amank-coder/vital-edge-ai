@@ -13,7 +13,7 @@ export default function PhysicalHealth() {
     Diabetes: 0,
     BMI: 22.5,
     Level: 'Normal',
-    'Fitness Goal': 'Weight Gain',
+    'Fitness Goal': 'Weight Loss',
     'Fitness Type': 'Cardio Fitness',
   });
 
