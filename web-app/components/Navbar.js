@@ -21,7 +21,7 @@ export default function Navbar() {
     
     {/* Left: Brand */}
     <div className="flex-1">
-      <Link href="/" className="text-lg font-bold hover:text-gray-300">HEALTHCARE</Link>
+      <Link href="/" className="text-lg font-bold hover:text-gray-300">VitalEdge AI</Link>
     </div>
 
     {/* Center: Nav Links */}

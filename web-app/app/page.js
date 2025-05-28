@@ -23,7 +23,7 @@ export default function Home() {
       <header className="w-full shadow-md py-5 bg-white sticky top-0 z-50">
         <div className="container mx-auto px-6 flex justify-between items-center">
           {/* Logo */}
-          <h1 className="text-2xl font-bold text-[#1a057a]">Healthcare</h1>
+          <h1 className="text-2xl font-bold text-[#1a057a]">VitalEdge AI</h1>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
