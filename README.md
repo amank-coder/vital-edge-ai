@@ -46,32 +46,33 @@ As awareness of mental health grows, fitness centers often fall short in address
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/amank-coder/vital-edge-ai
 cd vital-edge-ai
-
+```
 
 ---
 
 ### 2. Setup the Backend (Flask API)
 
-bash
+
+```bash
 cd ml-api
 python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py                
-
+```
 
 ---
 
 ### 3. Start the Frontend (Next.js App)
 
-bash
+```bash
 cd web-app
 npm install
 npm run dev                  
-
+```
 ---
 
 
