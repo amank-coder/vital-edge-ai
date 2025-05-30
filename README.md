@@ -1,6 +1,8 @@
 # 🧠💪 VitalEdge AI: Lifestyle-Based Health Assessment
 
 Transforming traditional gyms into holistic health hubs by integrating AI for both physical fitness and mental well-being.
+![image](https://github.com/user-attachments/assets/6e9c807d-5cc7-4ff4-a8c3-3e54a7fb99a9)
+
 ![Screenshot 2025-05-30 215112](https://github.com/user-attachments/assets/2e5aa170-d337-41d9-9869-65c4ead675df)
 
 ---
