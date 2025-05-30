@@ -27,7 +27,7 @@ As awareness of mental health grows, fitness centers often fall short in address
 
 - **Backend**: Python, Flask  
 - **Machine Learning**: Scikit-learn, Pandas, NumPy  
-- **Frontend**: HTML, CSS  
+- **Frontend**: Next.js, Tailwind CSS  
 - **Chatbot**: JavaScript (Vanilla JS)  
 - **Model**: Random Forest Classifier  
 
@@ -42,29 +42,38 @@ As awareness of mental health grows, fitness centers often fall short in address
 
 ---
 
-## 🔧 Installation & Setup
+## ⚙ Installation & Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ai-gym-health-monitor.git
-   cd ai-gym-health-monitor
-   ```
+### 1. Clone the Repository
 
-2. Create a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # or venv\Scripts\activate on Windows
-   pip install -r requirements.txt
-   ```
+bash
+git clone https://github.com/amank-coder/vital-edge-ai
+cd vital-edge-ai
 
-3. Run the Flask server:
-   ```bash
-   python app.py
-   ```
-
-4. Open `index.html` in a browser to use the frontend interface.
 
 ---
+
+### 2. Setup the Backend (Flask API)
+
+bash
+cd ml-api
+python -m venv venv
+source venv/bin/activate     # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py                
+
+
+---
+
+### 3. Start the Frontend (Next.js App)
+
+bash
+cd web-app
+npm install
+npm run dev                  
+
+---
+
 
 ## 🌟 Accomplishments
 
